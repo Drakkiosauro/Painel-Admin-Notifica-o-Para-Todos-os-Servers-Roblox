@@ -15,7 +15,7 @@ local Cores = {
 	input_bg = Color3.fromRGB(28, 28, 35)
 }
 
-local tela = Instance.new("ScreenGui"); tela.Name = "Painel_Final_V4_AgoraVaiMesmo"; tela.IgnoreGuiInset = true
+local tela = Instance.new("ScreenGui"); tela.Name = "Painel_Notificação_DessavezfoiXD"; tela.IgnoreGuiInset = true
 tela.DisplayOrder = 9999; tela.ResetOnSpawn = false; tela.Parent = pGui
 
 local grp = Instance.new("CanvasGroup"); grp.Name = "MainFrame_Bugado"; grp.Size = UDim2.new(0, 450, 0, 350)
