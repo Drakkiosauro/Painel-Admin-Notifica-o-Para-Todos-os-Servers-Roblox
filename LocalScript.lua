@@ -170,3 +170,6 @@ end)
 uis.InputBegan:Connect(function(io, gp)
 if not gp and io.KeyCode == Enum.KeyCode.Z then toggle_painel() end
 end)
+
+
+-- OBRIGADO POR VER ESTÉ CODIGO, MEU PORTFÓLIO COM VIDEOS: https://drakk-dev-portfolio.base44.app/
