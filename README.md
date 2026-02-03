@@ -20,4 +20,4 @@ Permite que administradores enviem mensagens importantes para todos os jogadores
 ## Requisitos
 
 - **LocalScript** rodando no client `StarterPlayerScripts`
-- **RemoteEvent** chamado  dentro do `ServerScriptService`
+- **Script** dentro do `ServerScriptService`
