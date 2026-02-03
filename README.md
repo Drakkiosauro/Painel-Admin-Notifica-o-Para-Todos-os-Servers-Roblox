@@ -1,34 +1,23 @@
 # Painel-Admin-Notifica-o-Para-Todos-os-Servers-Roblox
 
-Painel Administrativo - Mensagens & Manutenção
-Interface de gerenciamento para Roblox que permite o envio de notificações globais e alertas de manutenção com contagem regressiva.
+Interface administrativa para envio de notificações globais e alertas de manutenção com contagem regressiva no Roblox.
 
-Funcionalidades
-Interface Dual: Abas separadas para avisos gerais e comunicados de atualização.
+Permite que administradores enviem mensagens importantes para todos os jogadores em tempo real, com suporte a duas abas: notificações comuns e alertas de manutenção com timer.
 
-Sistema de Timer: Suporte a formatos de tempo variados (ex: 1h, 30m, 120s).
+## Funcionalidades
 
-UI Responsiva: Animações de transparência, movimentação e efeitos de hover via TweenService.
+- Interface com duas abas:
+  - **Notificação** – envio de mensagens gerais
+  - **Manutenção** – alertas com título + contagem regressiva
+- Suporte a formatos de tempo flexíveis (ex: `1h`, `30m`, `120s`, `2h15m`, ou apenas segundos)
+- Animações suaves com TweenService (fade, hover, slide)
+- Janela arrastável pelo cabeçalho
+- Atalhos de teclado:
+  - **Z** → abre/fecha o painel
+- Notificações flutuantes no topo da tela para avisos recebidos
+- Contagem regressiva visual para manutenções (atualiza a cada segundo)
 
-Interatividade: Janela arrastável e atalho via teclado (Tecla Z).
+## Requisitos
 
-Requisitos Técnicos
-O script utiliza os seguintes serviços e dependências:
-
-RemoteEvent: Requer um RemoteEvent chamado GlobalSystemEvent dentro do ReplicatedStorage.
-
-Localização: Deve ser executado em um LocalScript (ex: StarterGui ou StarterPlayerScripts).
-
-Configurações Principais
-No topo do script, você pode ajustar a paleta de cores no dicionário Cores:
-
-Fundo: Cor principal da janela.
-
-AzulChave: Cor de destaque para notificações de sistema.
-
-VermelhoErro: Cor de destaque para alertas de manutenção.
-
-Atalhos
-Tecla Z: Abre e fecha o painel principal.
-
-Botão X: Fecha a interface com animação de fade-out.
+- **LocalScript** rodando no client `StarterPlayerScripts`
+- **RemoteEvent** chamado  dentro do `ServerScriptService`
